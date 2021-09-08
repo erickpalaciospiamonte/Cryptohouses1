@@ -3,7 +3,7 @@ const {createCanvas, loadImage} = require("canvas");
 const canvas = createCanvas(1000, 1000);
 const ctx = canvas.getContext("2d");
 const {layers, width, height} = require("./input/config.js")
-const edition = 50;
+const edition = 40;
 
 
 const saveLayer = (_canvas, _edition) =>  {
